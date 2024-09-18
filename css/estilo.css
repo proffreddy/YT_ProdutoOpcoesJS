@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+  list-style-type: none;
+  font-size: 14px;
+}
+
+main 
+{ 
+    width: 80%;
+    max-width: 1200px;
+    margin:auto;
+    display: flex;
+}
+
+
+.cards-produtos {
+    margin: 20px auto;
+    display: flex;
+    gap:10px;
+}
+
+.cards-produtos > a {
+    text-decoration: none;
+    color: #000;
+    width: calc(50% - 9px);
+    border: thin solid #c7c7c7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.cards-produtos > a > h1 {
+    margin: 10px 0;
+}
+
+.imagemCard {
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+
+.imagemCard > img {
+    width: 100%;
+    border: thin solid #c7c7c7;
+}
+
+
+.areaDados
+{
+    width: 50%;
+    padding:20px;
+}
+
+.areaImagens
+{
+    width: 50%;
+    padding:20px;
+    text-align: center;
+}
+
+/* DADOS DO PRODUTO */
+h1 
+{ 
+    font-size: 1.8rem; 
+}
+
+.parcelas 
+{
+    font-size: 0.8rem;
+}
+
+.link
+{
+    color: blue;
+}
+
+.link:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h2
+{ 
+    font-size: 1.2rem; 
+    padding: 10px 0;
+}
+
+/* DADOS DO PRODUTO - SELECAO DE CORES */
+
+#selecaoCores 
+{
+    display: flex;
+    gap: 10px;
+}
+
+#selecaoCores img
+{
+    border-radius: 50%;
+    padding: 3px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+
+.selecionado {
+    border: 2px solid #0066cc !important;  
+}
+
+/* DADOS DO PRODUTO - TAMANHO */
+#opcoesTamanho
+{
+    display: flex;
+    gap: 10px;
+}
+
+#opcoesTamanho button {
+    width: 50%;
+    font-weight: bold;
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #797979;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 0 10px 0;
+    background-color: #fff;
+}
+
+/* AVISOS */
+
+.aviso p 
+{
+    font-size: 0.8rem;
+}
+
+#avisoSutil 
+{
+    color: #797979;
+    font-size: 0.7rem;
+}
+
+/* ENTREGAS */
+
+.entrega 
+{
+    margin: 10px 0;
+    display: flex;
+    gap:10px;
+}
+
+.entrega p
+{
+    font-size: 0.8rem;
+}
+
+.destaque
+{
+    font-weight: bold;
+}
+
+/* IMAGENS DO PRODUTO */
+.areaImagens > img 
+{ 
+    width: 80%;
+}
+
+#selecionarImagem
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+#selecionarImagem img
+{
+    width: 48px;
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+}
+
+.fotoSelecionada
+{
+    border-bottom: 2px solid #bdb8b8 !important;
+}

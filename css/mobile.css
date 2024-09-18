@@ -1,0 +1,12 @@
+@media screen and (max-width : 640px)
+{
+    main 
+    { 
+        flex-direction: column-reverse; 
+    }
+    
+    .areaDados, .areaImagens
+    {
+        width: 100%;
+    }
+}
